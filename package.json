@@ -1,0 +1,25 @@
+{
+	"name": "gulp-reshape",
+	"version": "1.0.0",
+	"description": "A gulp plugin to transform HTML files using reshape",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HoldYourWaffle/gulp-reshape.git"
+	},
+	"keywords": [
+		"gulpplugin",
+		"reshape-plugin"
+	],
+	"author": "HoldYourWaffle <supershitcodemonkey@gmail.com> (http://rubber-duck-debugging.nl)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/HoldYourWaffle/gulp-reshape/issues"
+	},
+	"homepage": "https://github.com/HoldYourWaffle/gulp-reshape#readme",
+	"devDependencies": {
+	}
+}
