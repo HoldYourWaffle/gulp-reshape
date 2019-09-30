@@ -20,6 +20,8 @@
 		"url": "https://github.com/HoldYourWaffle/gulp-reshape/issues"
 	},
 	"homepage": "https://github.com/HoldYourWaffle/gulp-reshape#readme",
-	"devDependencies": {
+	"devDependencies": {},
+	"dependencies": {
+		"plugin-error": "^1.0.1"
 	}
 }
