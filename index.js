@@ -15,7 +15,7 @@ module.exports = function gulpReshape(reshapeCompiler) {
 					callback(null, file);
 				})
 				.catch(err => {
-					this.emit('error', new PluginError(PLUGIN_NAME, err));
+					this.emit('error', new PluginError(PLUGIN_NAME, err, { fileName: file.path }));
 					//TODO fix potentially unhandled rejection error
 				});
 		} else if (file.isStream()) {
